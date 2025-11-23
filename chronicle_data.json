@@ -1,0 +1,467 @@
+{
+  "Fuel Subsidy": {
+    "total_articles": 20,
+    "date_range": {
+      "min": "01/01/2012",
+      "max": "31/08/2024"
+    },
+    "buckets": [
+      {
+        "bucket_id": 1985,
+        "bucket_label": "1985-1989",
+        "bucket_title": "Nigeria's Fuel Subsidy Debates",
+        "bucket_summary": "Nigeria was grappling with economic challenges and implementing structural adjustment programs that included controversial plans to remove fuel subsidies on petroleum products. The government faced public opposition and decided to withdraw subsidies in phases rather than all at once, while also launching national reconstruction budgets to address the country's economic problems.",
+        "article_count": 3,
+        "articles": [
+          {
+            "date": "23/12/1987",
+            "headline": "Partial Subsidy to be Retained",
+            "source": "The Nigerian Economist",
+            "filename": "1987_12_23_The_Nigerian_Economist.jpeg"
+          },
+          {
+            "date": "18/07/1989",
+            "headline": "African Petroleum Brings Fuel to the Nation",
+            "source": "The Nigerian Economist",
+            "filename": "1989_07_18_The_Nigerian_Economist.jpeg"
+          },
+          {
+            "date": "02/01/1986",
+            "headline": "A Budget to Start Era of National Reconstruction",
+            "source": "New Straits",
+            "filename": "1986_01_02_New_Straits.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 1990,
+        "bucket_label": "1990-1994",
+        "bucket_title": "Nigerian Fuel Subsidy Crisis",
+        "bucket_summary": "Nigeria experienced severe fuel shortages and mass riots in the early 1990s, leading to government investigations into the causes and debates over petroleum subsidy removal. The government struggled with whether to withdraw fuel subsidies, facing economic pressures to remove them while dealing with social unrest and the threat of increased smuggling and transport costs.",
+        "article_count": 2,
+        "articles": [
+          {
+            "date": "23/11/1992",
+            "headline": "Fuel Subsidy Withdrawal",
+            "source": "The Nigerian Economist",
+            "filename": "1992_11_23_The_Nigerian_Economist.jpeg"
+          },
+          {
+            "date": "17/08/1992",
+            "headline": "Fuel Crisis and Petroluem Subsidy",
+            "source": "The Nigerian Economist",
+            "filename": "1992_08_17_The_Nigerian_Economist.jpeg"
+          }
+        ]
+      },
+      {
+        "bucket_id": 2010,
+        "bucket_label": "2010-2014",
+        "bucket_title": "Nigeria Fuel Subsidy Crisis",
+        "bucket_summary": "The Nigerian government ended fuel subsidies in January 2012, causing petrol prices to more than double and triggering widespread protests, strikes, and civil unrest across the country. Despite government assurances about adequate supply and attempts at negotiations with trade unions, the subsidy removal led to significant economic hardship for ordinary Nigerians who relied on cheap fuel as their primary benefit from the nation's oil wealth.",
+        "article_count": 6,
+        "articles": [
+          {
+            "date": "15/01/2012",
+            "headline": "Nigeria Strile Talks Fail to Reach Agreement",
+            "source": "BBC News",
+            "filename": "2012_01_15_BBC_News.png"
+          },
+          {
+            "date": "01/01/2012",
+            "headline": "Nigeria Fuel Subsidy End Raises Protest Fears",
+            "source": "BBC News",
+            "filename": "2012_01_01_BBC_News.png"
+          },
+          {
+            "date": "04/01/2012",
+            "headline": "Nigerians Protest at Removal of Fuel Subsidy",
+            "source": "BBC News",
+            "filename": "2012_01_04_BBC_News.png"
+          },
+          {
+            "date": "02/01/2012",
+            "headline": "Nigeria Fury as Fuel Prices Double After Subsidy Ends",
+            "source": "BBC News",
+            "filename": "2012_01_02_BBC_News.png"
+          },
+          {
+            "date": "09/01/2012",
+            "headline": "Nigeria Fuel Strikes: Your Stories",
+            "source": "BBC News",
+            "filename": "2012_01_09_BBC_News.png"
+          },
+          {
+            "date": "05/01/2012",
+            "headline": "Nigeria Fuel Subsidy: Police Tear Gas Kano Protesters",
+            "source": "BBC News",
+            "filename": "2012_01_05_BBC_News.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 2015,
+        "bucket_label": "2015-2019",
+        "bucket_title": "Nigeria Fuel Crisis Shortages",
+        "bucket_summary": "Nigeria experienced severe fuel shortages that crippled businesses, banks, and flights, with long queues at petrol stations becoming common. The crisis was attributed to wholesale fuel sellers withholding petrol due to government debts, while political parties accused the outgoing government of sabotage for failing to address the situation.",
+        "article_count": 1,
+        "articles": [
+          {
+            "date": "25/05/2015",
+            "headline": "Nigeria Fuel Shortage Cripples Businesses, Banks and Flights",
+            "source": "BBC News",
+            "filename": "2015_05_25_BBC_News.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 2020,
+        "bucket_label": "2020-2024",
+        "bucket_title": "Nigeria Fuel Subsidy Removal",
+        "bucket_summary": "In May 2023, Nigeria's new President Bola Tinubu announced the immediate removal of the decades-long fuel subsidy during his inauguration, causing widespread panic-buying and fuel price increases across the country. The policy change aimed to ease government financial pressure but created significant economic challenges including inflation, increased costs for businesses, public protests, and disproportionate impacts on lower-income households.",
+        "article_count": 6,
+        "articles": [
+          {
+            "date": "18/03/2024",
+            "headline": "Fuel Subsidy Removal is Good for Climate Goals",
+            "source": "The Guardian Nigeria",
+            "filename": "2024_03_18_The_Guardian_Nigeria.png"
+          },
+          {
+            "date": "31/08/2024",
+            "headline": "Fuel Subsidy as a Policy",
+            "source": "The Guardian Nigeria",
+            "filename": "2024_08_31_The_Guardian_Nigeria.png"
+          },
+          {
+            "date": "30/05/2023",
+            "headline": "Nigeria Fuel Subsidy: Tinubu's Plan to Scrap Measure Sparks Rush to Stock Up",
+            "source": "BBC News",
+            "filename": "2023_05_30_BBC_News.png"
+          },
+          {
+            "date": "29/05/2023",
+            "headline": "Bola Tinubu Inauguration: Fuel Subsidy Removed in Nigeria",
+            "source": "BBC News",
+            "filename": "2023_05_29_BBC_News.png"
+          },
+          {
+            "date": "14/06/2023",
+            "headline": "How the End of Nigeria's Fuel Subsidy Affects Benin",
+            "source": "Africa Daily",
+            "filename": "2023_06_14_Africa_Daily.png"
+          },
+          {
+            "date": "05/06/2023",
+            "headline": "Bola Tinubu Ends Fuel Subsidy",
+            "source": "Africa Daily",
+            "filename": "2023_06_05_Africa_Daily.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 2025,
+        "bucket_label": "2025-2029",
+        "bucket_title": "Fuel Subsidy Removal Debate",
+        "bucket_summary": "Nigerian political leaders engaged in heated debates over the removal of fuel subsidies, with critics like Peter Obi arguing that the Tinubu administration's approach lacked proper structure and transparency. The Emir of Kano blamed Nigeria's economic hardship on the delayed removal of fuel subsidies, while emphasizing the need for leadership to mitigate the costs of such policy changes.",
+        "article_count": 2,
+        "articles": [
+          {
+            "date": "09/06/2025",
+            "headline": "What I Would have Done Differently in Removing Fuel Subsidy -Peter Obi",
+            "source": "The Guardian Nigeria",
+            "filename": "2025_06_09_The_Guardian_Nigeria.png"
+          },
+          {
+            "date": "29/08/2025",
+            "headline": "Sanusi Blames Economic Hardship on Delayed Fuel Subsidy Removal",
+            "source": "The Guardian Nigeria",
+            "filename": "2025_08_29_The_Guardian_Nigeria.png"
+          }
+        ]
+      }
+    ]
+  },
+  "Military Coup": {
+    "total_articles": 35,
+    "date_range": {
+      "min": "01/01/1984",
+      "max": "31/07/1975"
+    },
+    "buckets": [
+      {
+        "bucket_id": 1965,
+        "bucket_label": "1965-1969",
+        "bucket_title": "Nigerian Civil War Crisis",
+        "bucket_summary": "Nigeria experienced a military coup in January 1966 that resulted in the death of Prime Minister Abubakar Tafawa Balewa and led to escalating ethnic and regional tensions. The country subsequently descended into a devastating civil war as the Eastern region (Biafra) attempted to secede, creating a humanitarian crisis that drew international attention.",
+        "article_count": 4,
+        "articles": [
+          {
+            "date": "22/01/1966",
+            "headline": "Prime Minister Reported Killed in Coup Attempt",
+            "source": "The Bulletin",
+            "filename": "1966_01_22_The_Bulletin.png"
+          },
+          {
+            "date": "04/03/1968",
+            "headline": "World Watched As Stubborn Biafra Fights for Survival",
+            "source": "The Morning Record",
+            "filename": "1968_03_04_The_Morning_Record.png"
+          },
+          {
+            "date": "15/03/1967",
+            "headline": "Crucial Month",
+            "source": "The Age",
+            "filename": "1967_03_15_The_Age.png"
+          },
+          {
+            "date": "27/12/1967",
+            "headline": "A Sideline View of an Uprising",
+            "source": "The Windsor Star",
+            "filename": "1967_12_27_The_Windsor_Star.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 1970,
+        "bucket_label": "1970-1974",
+        "bucket_title": "Nigerian Civil War Aftermath",
+        "bucket_summary": "The newspaper article describes the ethnic tensions and violence that erupted between Nigeria's Hausa and Ibo tribes following a military coup in 1966, which escalated into the devastating Biafran Civil War. The conflict resulted in massive casualties, with over 20,000 Ibos reportedly killed and millions more starving during the federal government's siege of the breakaway Biafran region.",
+        "article_count": 1,
+        "articles": [
+          {
+            "date": "12/01/1970",
+            "headline": "Tribal Hate Spawned Bitter Biafran War",
+            "source": "The Pittsburgh Press",
+            "filename": "1970_01_12_The_Pittsburgh_Press.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 1975,
+        "bucket_label": "1975-1979",
+        "bucket_title": "Nigeria Military Coups 1975-1979",
+        "bucket_summary": "Nigeria experienced multiple military coups during this period, with General Yakubu Gowon being overthrown by Murtala Mohammed in 1975, followed by another coup that brought new leadership to power. The military government eventually began transitioning toward civilian rule, planning elections and a return to democratic governance by 1979.",
+        "article_count": 8,
+        "articles": [
+          {
+            "date": "20/09/1975",
+            "headline": "Joe Iyalla Among Ousted Nigerians",
+            "source": "The Afro American",
+            "filename": "1975_09_20_The_Afro_American.jpeg"
+          },
+          {
+            "date": "27/05/1978",
+            "headline": "Nigeria to Elect President with System Similar to U.S.",
+            "source": "The Calgary Herald",
+            "filename": "1978_05_27_The_Calgary_Herald.png"
+          },
+          {
+            "date": "29/07/1975",
+            "headline": "Nigeria Military Coup Leaders Cut Off Outside World",
+            "source": "The Evening News",
+            "filename": "1975_07_29_The_Evening_News.png"
+          },
+          {
+            "date": "13/02/1976",
+            "headline": "Coup Reported in Nigeria",
+            "source": "Unknown",
+            "filename": "1976_02_13_Unknown.png"
+          },
+          {
+            "date": "31/07/1975",
+            "headline": "While the Cat's Away",
+            "source": "Pittsburgh Post Gazette",
+            "filename": "1975_07_31_Pittsburgh_Post_Gazette.png"
+          },
+          {
+            "date": "31/07/1975",
+            "headline": "Muritala Mohammed Takes Control",
+            "source": "Sarasota Herald Tribune",
+            "filename": "1975_07_31_Sarasota_Herald_Tribune.png"
+          },
+          {
+            "date": "13/02/1976",
+            "headline": "Nigeria Military Coup Reported",
+            "source": "The Press Courier",
+            "filename": "1976_02_13_The_Press_Courier.png"
+          },
+          {
+            "date": "13/02/1976",
+            "headline": "2nd Military Coup Reported in Nigeria",
+            "source": "Ocala Star Banner",
+            "filename": "1976_02_13_Ocala_Star_Banner.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 1980,
+        "bucket_label": "1980-1984",
+        "bucket_title": "Nigerian Military Coup 1983",
+        "bucket_summary": "Nigeria's military seized power in a bloodless coup on December 31, 1983, overthrowing the democratically elected civilian government of President Shehu Shagari after four years of rule. The military takeover was justified by citing corruption, economic mismanagement, and the need for political stability, marking another setback for democracy in Africa's most populous nation.",
+        "article_count": 7,
+        "articles": [
+          {
+            "date": "01/01/1984",
+            "headline": "Military Takes Over in Nigeria",
+            "source": "Gadsden Times",
+            "filename": "1984_01_01_Gadsden_Times.png"
+          },
+          {
+            "date": "10/01/1984",
+            "headline": "Democracy Suffers Nigeria Blow",
+            "source": "The Press Courier",
+            "filename": "1984_01_10_The_Press_Courier.png"
+          },
+          {
+            "date": "07/01/1984",
+            "headline": "The Coup in Nigeria: A Blossoming of Law Nipped in the Bud",
+            "source": "Pittsburgh Post Gazette",
+            "filename": "1984_01_07_Pittsburgh_Post_Gazette.png"
+          },
+          {
+            "date": "01/01/1984",
+            "headline": "Nigeria's Military Rules Again",
+            "source": "The Sydney Morning Herald",
+            "filename": "1984_01_01_The_Sydney_Morning_Herald.png"
+          },
+          {
+            "date": "01/01/1984",
+            "headline": "Civilian Government Ousted in Bloodless Military Coup",
+            "source": "Herald Journal",
+            "filename": "1984_01_01_Herald_Journal.png"
+          },
+          {
+            "date": "01/01/1984",
+            "headline": "U.S. Studies Effects of Nigerian Coup",
+            "source": "Lawrence Journal World",
+            "filename": "1984_01_01_Lawrence_Journal_World.png"
+          },
+          {
+            "date": "01/01/1984",
+            "headline": "Bloodless Coup Ousts President Shagari",
+            "source": "The Press Courier",
+            "filename": "1984_01_01_The_Press_Courier.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 1985,
+        "bucket_label": "1985-1989",
+        "bucket_title": "Nigerian Military Coups Crisis",
+        "bucket_summary": "Nigeria experienced multiple military coups and coup attempts during the 1980s, including successful takeovers that disrupted civilian government and created political instability. The period was marked by economic difficulties, corruption, and a cycle of military leaders seizing power through force rather than democratic processes.",
+        "article_count": 6,
+        "articles": [
+          {
+            "date": "06/02/1985",
+            "headline": "Coup Cancels Trip to Nigeria",
+            "source": "The Montreal Gazette",
+            "filename": "1985_02_06_The_Montreal_Gazette.png"
+          },
+          {
+            "date": "20/12/1985",
+            "headline": "Nigerians Claim Army Coup Fails",
+            "source": "Spokane Chronicle",
+            "filename": "1985_12_20_Spokane_Chronicle.png"
+          },
+          {
+            "date": "23/11/1985",
+            "headline": "Analysis: Africa Political Coups",
+            "source": "The Afro American",
+            "filename": "1985_11_23_The_Afro_American.png"
+          },
+          {
+            "date": "28/08/1985",
+            "headline": "Nigeria's Worsening Economy Leads to Another Military Coup",
+            "source": "The Sydney Morning Herald",
+            "filename": "1985_08_28_The_Sydney_Morning_Herald.png"
+          },
+          {
+            "date": "21/12/1985",
+            "headline": "Nigerian Coup is Foiled by New Leaders",
+            "source": "Lodi News Sentinel",
+            "filename": "1985_12_21_Lodi_News_Sentinel.png"
+          },
+          {
+            "date": "20/12/1985",
+            "headline": "Nigeria Army Coup Try to be Reported Failure",
+            "source": "The Vindicator",
+            "filename": "1985_12_20_The_Vindicator.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 1990,
+        "bucket_label": "1990-1994",
+        "bucket_title": "Nigeria's Military Coup Era",
+        "bucket_summary": "Nigerian newspapers from 1990-1994 documented the devastating impact of military coups on families of plotters, including executions, imprisonment, and social stigma for wives and children. This period saw multiple coup attempts and rumors, highlighting the political instability and the cycle of military intervention that plagued Nigeria's transition to democracy.",
+        "article_count": 6,
+        "articles": [
+          {
+            "date": "11/06/1990",
+            "headline": "The Agony of Abortive Coup Plotters' Families",
+            "source": "Newbreed",
+            "filename": "1990_06_11_Newbreed.jpeg"
+          },
+          {
+            "date": "08/11/1993",
+            "headline": "Coup Report Is Rubbish",
+            "source": "Newswatch",
+            "filename": "1993_11_08_Newswatch.jpeg"
+          },
+          {
+            "date": "14/05/1993",
+            "headline": "New Frontiers of Treason",
+            "source": "TELL",
+            "filename": "1993_05_14_TELL.jpeg"
+          },
+          {
+            "date": "11/06/1990",
+            "headline": "The Evils That Coups Do",
+            "source": "Newbreed",
+            "filename": "1990_06_11_Newbreed_2.jpeg"
+          },
+          {
+            "date": "27/04/1992",
+            "headline": "The Coup That Never Was",
+            "source": "Citizen April",
+            "filename": "1992_04_27_Citizen_April.jpeg"
+          },
+          {
+            "date": "17/11/1993",
+            "headline": "Nigeria General Takes Over Government",
+            "source": "The Victoria Advocate",
+            "filename": "1993_11_17_The_Victoria_Advocate.png"
+          }
+        ]
+      },
+      {
+        "bucket_id": 1995,
+        "bucket_label": "1995-1999",
+        "bucket_title": "Nigeria's Democratic Transition",
+        "bucket_summary": "Nigeria experienced a turbulent period of military coups and political instability, with various military leaders seizing power and facing charges of treason and conspiracy. The country eventually transitioned from military rule to civilian democracy when Olusegun Obasanjo became Nigeria's first civilian president in 15 years, promising reform and an end to the cycle of military dictatorships.",
+        "article_count": 3,
+        "articles": [
+          {
+            "date": "29/12/1997",
+            "headline": "Coup Fallout: Deal With Diya, Others",
+            "source": "PM News",
+            "filename": "1997_12_29_PM_News.jpeg"
+          },
+          {
+            "date": "20/07/1997",
+            "headline": "Writer Fights From Afar to Free Nigeria",
+            "source": "Beaver Country Times",
+            "filename": "1997_07_20_Beaver_Country_Times.png"
+          },
+          {
+            "date": "30/05/1999",
+            "headline": "Nigeria's President Takes Reins from Military",
+            "source": "Herald Journal",
+            "filename": "1999_05_30_Herald_Journal.png"
+          }
+        ]
+      }
+    ]
+  }
+}

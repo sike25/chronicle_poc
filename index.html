@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronicle Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chronicle Demo</h1>
+        <p class="byline">
+            Select a topic to explore and reveal patterns across decades of Nigerian history. <br><br>
+        </p>
+
+        <div class="query-buttons">
+            <button class="query-btn" data-query="Fuel Subsidy">
+                <span class="emoji"></span>
+                <span>Fuel Subsidy</span>
+            </button>
+            <button class="query-btn" data-query="Military Coup">
+                <span class="emoji"></span>
+                <span>Military Coup</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="logs-container" id="logsContainer" style="display: none;">
+        <div id="logMessages"></div>
+    </div>
+
+    <div class="timeline-container" id="timelineContainer" style="display: none;">
+        <h2 id="timelineTitle">Timeline</h2>
+        <canvas id="timelineChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
