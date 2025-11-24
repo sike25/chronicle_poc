@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #000;
+}
+
+.byline {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 48px;
+    max-width: 600px;
+}
+
+.query-buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.query-btn {
+    flex: 1;
+    padding: 24px 32px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.query-btn:hover {
+    border-color: #35abff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.15);
+}
+
+.query-btn:active {
+    transform: translateY(0);
+}
+
+.emoji {
+    font-size: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .query-buttons {
+        flex-direction: column;
+    }
+
+    .query-btn {
+        padding: 20px;
+        font-size: 1.1rem;
+    }
+}
+
+.logs-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 160px;
+}
+
+.log-message {
+    font-size: 1.1rem;
+    padding: 8px 0;
+    opacity: 0;
+    animation: fadeIn 0.3s ease forwards;
+    color: #333;
+}
+
+.log-message .emoji {
+    margin-right: 8px;
+}
+
+.log-message .highlight {
+    font-weight: 500;
+    color: #35abff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 80px auto; 
+    padding: 0 20px;
+}
+
+.timeline-container h2 {
+    text-align: center; 
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+.timeline {
+    position: relative;
+    padding: 40px 0;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #ddd;
+    transform: translateY(-50%);
+}
+
+.timeline-point {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.timeline-point-circle {
+    width: 16px;
+    height: 16px;
+    background: #35abff;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.timeline-point:hover .timeline-point-circle {
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
+}
+
+.timeline-label {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #333;
+}
+
+.timeline-count {
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.85rem;
+    color: #666;
+    white-space: nowrap;
+}
+
+.timeline-tooltip {
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 16px;
+    border-radius: 6px;
+    max-width: 300px;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.timeline-tooltip.visible {
+    display: block;
+}
+
+.tooltip-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.tooltip-summary {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Bucket Modal */
+.bucket-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bucket-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+}
+
+.bucket-modal-content {
+    position: relative;
+    background: white;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 90%;
+    max-height: 85vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.close-btn {
+    position: sticky;
+    top: 20px;
+    right: 20px;
+    float: right;
+    background: #f0f0f0;
+    border: none;
+    font-size: 32px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    z-index: 10;
+    line-height: 1;
+    color: #666;
+}
+
+.close-btn:hover {
+    background: #e0e0e0;
+    transform: scale(1.1);
+    color: #333;
+}
+
+.bucket-header {
+    padding: 40px 40px 30px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.bucket-header h2 {
+    margin: 0 0 10px;
+    font-size: 32px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.bucket-header h3 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    color: #555;
+    font-weight: 500;
+}
+
+.bucket-summary {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.bucket-articles {
+    padding: 30px 40px 40px;
+}
+
+.article-link {
+    display: block;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.5;
+    transition: all 0.2s;
+}
+
+.article-link:hover {
+    color: #3498db;
+    padding-left: 8px;
+}
+
+.article-link:last-child {
+    border-bottom: none;
+}
+
+.article-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .bucket-modal-content {
+        width: 95%;
+        max-height: 90vh;
+    }
+    
+    .bucket-header {
+        padding: 30px 20px 20px;
+    }
+    
+    .bucket-articles {
+        padding: 20px;
+    }
+    
+    .article-card {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .article-thumbnail {
+        width: 100%;
+        height: 200px;
+    }
+}

@@ -31,10 +31,25 @@
 
     <div class="timeline-container" id="timelineContainer" style="display: none;">
         <h2 id="timelineTitle">Timeline</h2>
-        <canvas id="timelineChart"></canvas>
+        <div class="timeline" id="timeline"></div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <div class="bucket-modal" id="bucketModal" style="display: none;">
+        <div class="bucket-modal-overlay" onclick="closeBucketDetails()"></div>
+        <div class="bucket-modal-content">
+            <button class="close-btn" onclick="closeBucketDetails()">×</button>
+            
+            <div class="bucket-header">
+                <h2 id="bucketPeriod"></h2>
+                <h3 id="bucketTitle"></h3>
+                <p class="bucket-summary" id="bucketSummary"></p>
+            </div>
+            
+            <div class="bucket-articles" id="bucketArticles">
+                <!-- Article links will be inserted here -->
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
