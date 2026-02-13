@@ -6,11 +6,15 @@ Built with real data from archiving.
 - [X] Add filtering step after search
 - [X] Add filtering step after clustering (may roll back in favor of hierarchal enrichment)
 - [X] Remove summary from llm context
-- [ ] Code documentation
-- [ ] Provide earlier titles as context
-- [ ] Semantic clustering? lol
 - [X] Replace extraction model with DUMB one
-- [ ] Implement heirarchal enrichment
+- [X] Provide earlier titles as context
+- [X] Code documentation and folder management
+- [X] Add some thorough, clean downloadable logging situation
 - [ ] Implement UI
-- [ ] Add some downloadable logging situation
 - [ ] Deploy
+- [ ] Peek into extraction and filtering stages
+- [ ] Implement heirarchal enrichment + selecting unique documents via clustering
+- [ ] Semantic clustering? lol
+- [ ] Parallelize
+- [ ] Add timing management 
+- [ ] Rerun extracts
